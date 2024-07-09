@@ -716,7 +716,9 @@ nav a:hover {
 
 
 
-
+section {
+    padding: 0 10px;
+}
 
 
 .telecharger {
@@ -752,4 +754,8 @@ hr {
 
 .accueil-title {
     padding: 10px 0;
+}
+
+#a-propos img {
+    width: 50%;
 }
