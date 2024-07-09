@@ -713,3 +713,26 @@ nav a:hover {
 }
 /*End desk*/       
 }
+
+
+
+
+
+
+.telecharger {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to top right, #FFB500, 70%, #c0c0c0);
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #c1c1c1;
+    box-shadow: -3px 3px 10px #818181;
+}
+
+.telecharger:hover {
+    box-shadow: none;
+    background: linear-gradient(to top right, #C0C0C0, 70%, #FFB500);
+    transition: all 0.3s ease-in;
+}
