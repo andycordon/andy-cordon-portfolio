@@ -139,8 +139,8 @@ nav {
   border-radius: 0 0 20px 20px;
 }
 #check:checked ~ nav {
-  background-color: #2B2B2B;
-  height: 355px;
+  background-color: #2b2b2b;
+  height: 248px;
 }
 nav a {
   text-decoration: none;
@@ -729,10 +729,27 @@ nav a:hover {
     font-size: 18px;
     border: 1px solid #c1c1c1;
     box-shadow: -3px 3px 10px #818181;
+    margin: 20px 0;
 }
 
 .telecharger:hover {
     box-shadow: none;
     background: linear-gradient(to top right, #C0C0C0, 70%, #FFB500);
     transition: all 0.3s ease-in;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #c0c0c0;
+    margin: 20px auto;
+    width: 70%;
+}
+
+#accueil {
+    padding-top: 90px;
+}
+
+.accueil-title {
+    padding: 10px 0;
 }
