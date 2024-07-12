@@ -267,42 +267,12 @@ footer li a {
   border: none;
   border-radius: 10px;
   box-shadow: -3px 3px 10px #818181;
+  transition: all 0.3s ease-in;
   }
   .return-button:hover {
     box-shadow: none;
     background: linear-gradient(to top right, #C0C0C0, 70%, #FFB500);
-    transition: all 0.3s ease-in;
 }
-
-
-
-
-
-
-
-
-
-
-/*Tab style*/
-@media (min-width: 768px) {
-/*Tab Elements Bases*/
-/*Tab Header*/
-header {
-  position: relative;
-}
-
-/*Tab Accueil Page*/
-/*Tab title h1*/
-.title {
-  padding: 0;
-  margin-top: -70px;
-}
-  /*end tab style*/
-}
-
-
-
-
 
 
 
@@ -377,6 +347,19 @@ nav a:hover {
 
 
 
+
+
+
+
+
+
+
+
+.accueil-title {
+  padding-top: 150px;
+}
+
+
 section {
     padding: 0 10px;
 }
@@ -402,7 +385,7 @@ section {
     background: linear-gradient(to top right, #FFB500, 70%, #C0C0C0);
     color: #2B2B2B;
     padding: 10px 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
@@ -442,6 +425,16 @@ iframe {
     margin-top: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -478,6 +471,12 @@ iframe {
 
 
 
+#portfolio h3 {
+  padding: 10px 0;
+}
+#portfolio p {
+  margin: 5px;
+}
 #portfolio .flip-card {
   display: inline-block;
   background-color: transparent;
@@ -517,7 +516,7 @@ iframe {
 
 
 #portfolio .portfolio-button {
-  background: linear-gradient(to top right, #FF2D43, 70%, #001F3F);
+  background: linear-gradient(to top right, #FFB500, 70%, #C0C0C0);
   color: #000;
   padding: 10px 20px;
   text-align: center;
@@ -532,14 +531,12 @@ iframe {
   bottom: 0;
   margin: 0 0 0 -5px;
   width: 100%;
+  transition: 400ms ease-out;
 }
-#portfolio .gallerie-button:hover {
+#portfolio .portfolio-button:hover {
     box-shadow: none;
-    background: linear-gradient(to top right, #001F3F, 70%, #FF2D43);
-    color: #fff;
-    transition: 400ms ease-out;
+    background: linear-gradient(to top right, #C0C0C0, 70%, #FFB500);
 }
-
 
 
 
@@ -590,4 +587,6 @@ iframe {
     transform: translateX(-100%);
   }
 }
+
+
 
