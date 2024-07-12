@@ -563,10 +563,8 @@ iframe {
 
 #apropos .logos-slide img {
   margin: 20px 10px 0 10px;
-  height: 160px;
+  height: 100px;
   padding: 5px;
-  border-radius: 100%;
-  border: 3px solid #c0c0c0;
 }
 @keyframes slide {
   from {
@@ -582,3 +580,14 @@ iframe {
 
 
 
+
+
+#services article {
+margin: 20px 0;
+}
+
+.fa-diagram-project,.fa-paintbrush,.fa-desktop,.fa-comments,.fa-code,.fa-magnifying-glass {
+  color: #ffb500;
+  height: 30px;
+  width: 30px;
+}
