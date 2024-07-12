@@ -443,28 +443,16 @@ iframe {
 }
 
 .img1 img {
-    border-radius: 20px 0 0 0;
+    border-radius: 20px 20px 0 0;
 }
 .img1b {
-    border-radius: 20px 0 0 0;
+    border-radius: 20px 20px 0 0;
 }
-.img2 img {
-    border-radius: 0 20px 0 0;
+.img6 img {
+  border-radius: 0 0 20px 20px;
 }
-.img2b {
-    border-radius: 0 20px 0 0;
-}
-.img3 img {
-    border-radius: 0 0 0 20px;
-}
-.img3b {
-    border-radius: 0 0 0 20px;
-}
-.img4 img {
-    border-radius: 0 0 20px 0;
-}
-.img4b {
-    border-radius: 0 0 20px 0;
+.img6b, .portfolio-button-bottom {
+    border-radius: 0 0 20px 20px;
 }
 
 
@@ -483,8 +471,8 @@ iframe {
   perspective: 1000px;
 }
 #portfolio .flip-card-inner {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -494,15 +482,16 @@ iframe {
 }
 #portfolio .flip-card-front,#portfolio .flip-card-back {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   white-space: normal;
 }
 #portfolio img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
+  border: 1px #c0c0c0 solid;
 }
 
 #portfolio .flip-card-back {
