@@ -429,9 +429,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-#a-propos img {
-    width: 50%;
-}
 
 .contact-tel, .contact-mail, .localisation {
     padding: 10px 0;
@@ -542,3 +539,55 @@ iframe {
     color: #fff;
     transition: 400ms ease-out;
 }
+
+
+
+
+
+
+
+
+
+
+.apropos-img{
+  width: 50%;
+}
+
+#apropos .logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+#apropos .logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  content: "";
+  z-index: 1;
+}
+#apropos .logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+#apropos .logos-slide {
+  display: inline-block;
+  animation: 10000ms slide infinite linear;
+}
+
+#apropos .logos-slide img {
+  margin: 20px 10px 0 10px;
+  height: 160px;
+  padding: 5px;
+  border-radius: 100%;
+  border: 3px solid #c0c0c0;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
