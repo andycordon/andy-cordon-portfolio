@@ -593,3 +593,32 @@ margin: 20px 0;
   height: 30px;
   width: 30px;
 }
+
+
+
+/*Tab style*/
+@media (min-width: 768px) {
+
+  .reseaux a {
+    width: 250px;
+    margin: 0 20px;
+    z-index: 2;
+  }
+
+    /*end tab style*/
+}
+
+
+
+
+  /*Desktop style*/
+  @media (min-width: 1024px) {
+
+    footer {
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
+
+/*End desk*/       
+    }
