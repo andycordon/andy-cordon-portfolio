@@ -440,6 +440,8 @@ iframe {
     flex-direction: row;
     flex-wrap: wrap; 
     justify-content: center;
+    max-width: 350px;
+    margin: auto;
 }
 
 .img1 img {
