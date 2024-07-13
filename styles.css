@@ -562,9 +562,26 @@ iframe {
     }
 
 
-
-
-
+  /*Tab A propos section*/
+  /*Tab presentation*/
+  #apropos article {
+    width: 700px;
+    margin: auto;
+  }
+  /*Tab image opacite defil*/
+  .logos::before {
+    left: 0;
+    background: linear-gradient(to left, rgba(3, 3, 3, 0), #2b2b2b);
+  }
+  .logos::after {
+    right: 0;
+    background: linear-gradient(to right, rgba(3, 3, 3, 0), #2b2b2b);
+  }
+  .logos:before,
+    .logos:after {
+      width: 300px;
+      height: 100%;
+    }
     /*end tab style*/
 }
 
