@@ -494,10 +494,12 @@ iframe {
 /*Tab style*/
 @media (min-width: 768px) {
 
+
   /* Header tab */
   header {
     position: relative;
   }
+
 
   /*Tab Accueil section*/
   /*Tab Title accueil*/
@@ -512,36 +514,52 @@ iframe {
     width: 300px;
   }
 
+
   /*Tab Portfolio section*/
   /*Tab All project portfolio*/
-.cards {
-  max-width: 700px;
-}
-/*Tab Border projects*/
-.img1 img {
-  border-radius: 20px 0 0 0;
-}
-.img1b {
-  border-radius: 0 20px 0 0;
-}
-.img2 img {
-  border-radius: 0 20px 0 0;
-}
-.img2b {
-  border-radius: 20px 0 0 0;
-}
-.img5 img {
-  border-radius: 0 0 0 20px;
-}
-.img5b, .portfolio-button-bottom5 {
+  .cards {
+    max-width: 700px;
+  }
+  /*Tab Border projects*/
+  .img1 img {
+    border-radius: 20px 0 0 0;
+  }
+  .img1b {
+    border-radius: 0 20px 0 0;
+  }
+  .img2 img {
+    border-radius: 0 20px 0 0;
+  }
+  .img2b {
+    border-radius: 20px 0 0 0;
+  }
+  .img5 img {
+    border-radius: 0 0 0 20px;
+  }
+  .img5b, .portfolio-button-bottom5 {
+    border-radius: 0 0 20px 0;
+  }
+  .img6 img {
   border-radius: 0 0 20px 0;
-}
-.img6 img {
-border-radius: 0 0 20px 0;
-}
-.img6b, .portfolio-button-bottom6 {
-  border-radius: 0 0 0 20px;
-}
+  }
+  .img6b, .portfolio-button-bottom6 {
+    border-radius: 0 0 0 20px;
+  }
+
+
+  /*Tab Services section*/
+  /*Tab Ecard article*/
+  #services article {
+    display: flex;
+    align-items: center;
+    margin: 20px auto 20px auto;
+    width: 400px;
+    }
+  /*Tab Picto article*/
+  .fa-diagram-project,.fa-paintbrush,.fa-desktop,.fa-comments,.fa-code,.fa-magnifying-glass {
+    margin:0 0 0 -60px;
+    padding: 20px;
+    }
 
 
 
