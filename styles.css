@@ -329,7 +329,7 @@ hr {
 .img6 img {
 border-radius: 0 0 20px 20px;
 }
-.img6b, .portfolio-button-bottom {
+.img6b, .portfolio-button-bottom6 {
   border-radius: 0 0 20px 20px;
 }
 /*card size*/
@@ -517,85 +517,32 @@ iframe {
 .cards {
   max-width: 700px;
 }
-/*Border projects*/
+/*Tab Border projects*/
 .img1 img {
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 0 0 0;
 }
 .img1b {
-  border-radius: 20px 20px 0 0;
+  border-radius: 0 20px 0 0;
+}
+.img2 img {
+  border-radius: 0 20px 0 0;
+}
+.img2b {
+  border-radius: 20px 0 0 0;
+}
+.img5 img {
+  border-radius: 0 0 0 20px;
+}
+.img5b, .portfolio-button-bottom5 {
+  border-radius: 0 0 20px 0;
 }
 .img6 img {
-border-radius: 0 0 20px 20px;
+border-radius: 0 0 20px 0;
 }
-.img6b, .portfolio-button-bottom {
-  border-radius: 0 0 20px 20px;
+.img6b, .portfolio-button-bottom6 {
+  border-radius: 0 0 0 20px;
 }
-/*card size*/
-#portfolio img {
-width: 300px;
-height: 300px;
-border: 1px #c0c0c0 solid;
-}
-/*card project*/
-#portfolio .flip-card {
-display: inline-block;
-background-color: transparent;
-perspective: 1000px;
-}
-#portfolio .flip-card-inner {
-width: 300px;
-height: 300px;
-text-align: center;
-transition: transform 0.8s;
-transform-style: preserve-3d;
-}
-#portfolio .flip-card:hover .flip-card-inner {
-transform: rotateY(180deg);
-}
-#portfolio .flip-card-front,#portfolio .flip-card-back {
-position: absolute;
-width: 300px;
-height: 300px;
-backface-visibility: hidden;
--webkit-backface-visibility: hidden;
-white-space: normal;
-}
-/*verso card project*/
-#portfolio h3 {
-padding: 10px 0;
-}
-#portfolio p {
-margin: 5px;
-}
-#portfolio .flip-card-back {
-background-color: #fff;
-color: #000;
-transform: rotateY(180deg);
-padding: 5px;
-}
-/*Bouton link project*/
-#portfolio .portfolio-button {
-background: linear-gradient(to top right, #FFB500, 70%, #C0C0C0);
-color: #000;
-padding: 10px 20px;
-text-align: center;
-text-decoration: none;
-font-size: 16px;
-font-weight: bold;
-border: none;
-cursor: pointer;
-transition: transform 0.3s ease;
-display: block;
-position: absolute;    
-bottom: 0;
-margin: 0 0 0 -5px;
-width: 100%;
-transition: 400ms ease-out;
-}
-#portfolio .portfolio-button:hover {
-  box-shadow: none;
-  background: linear-gradient(to top right, #C0C0C0, 70%, #FFB500);
-}
+
 
 
 
