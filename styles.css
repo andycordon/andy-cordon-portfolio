@@ -432,7 +432,7 @@ transition: 400ms ease-out;
 }
 #apropos .logos-slide {
   display: inline-block;
-  animation: 10000ms slide infinite linear;
+  animation: 15000ms slide infinite linear;
 }
 @keyframes slide {
   from {
@@ -447,6 +447,20 @@ transition: 400ms ease-out;
   margin: 20px 10px 0 10px;
   height: 100px;
   padding: 5px;
+}
+/*Tab image opacite defil*/
+.logos::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(3, 3, 3, 0), #2b2b2b);
+}
+.logos::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(3, 3, 3, 0), #2b2b2b);
+}
+.logos:before,
+  .logos:after {
+    width: 50px;
+    height: 100%;
 }
 
 
@@ -569,18 +583,8 @@ iframe {
     margin: auto;
   }
   /*Tab image opacite defil*/
-  .logos::before {
-    left: 0;
-    background: linear-gradient(to left, rgba(3, 3, 3, 0), #2b2b2b);
-  }
-  .logos::after {
-    right: 0;
-    background: linear-gradient(to right, rgba(3, 3, 3, 0), #2b2b2b);
-  }
-  .logos:before,
-    .logos:after {
+  .logos:before,.logos:after {
       width: 300px;
-      height: 100%;
     }
     /*end tab style*/
 }
@@ -588,72 +592,155 @@ iframe {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
   /*Desktop style*/
   @media (min-width: 1024px) {
 
-/*Desk Elements Bases*/
-/*Desk footer*/
-.buttonMenu {
-  display: none;
-  position: absolute;
-}
-header {
-  height: 200px;
-  border: none;
-}
-header a {
-  width: 100%;
-}
-header p {
-  font-size: 40px;
-  font-weight: 900;
-  margin-top: -50px;
-}
-.logo {
-  width: 150px;
-  padding: 5px;
-  border-radius: 20px;
-  position: absolute;
-  left: 0;
-  top:0
-}
-footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-}
+  /*Desk Elements Bases*/
+  /*Desk footer*/
+  .buttonMenu {
+    display: none;
+    position: absolute;
+  }
+  header {
+    height: 200px;
+    border: none;
+  }
+  header a {
+    width: 100%;
+  }
+  header p {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: -50px;
+  }
+  .logo {
+    width: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    top:0
+  }
+  footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
 
-/*Desk barre de menu*/
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin:170px 0 0 0;
-  padding: 0;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  z-index: 2;
-}
-nav a {
-  opacity: 1;
-  transform: scale(1);
-  display: block;
-  border-radius: 10px;
-  border: 1px solid #C0C0C0;
-  background-color: #FFB500;
-  color: #2B2B2B;
-  font-weight: 600;
-  font-size: 15px;
-  padding: 8px 0px;
-  margin: 0 5px;
-  box-shadow: -3px 3px 10px #818181;
-}
-nav a:hover {
-  background-color: #c0c0c0;
-  border: 1px solid #2B2B2B;
-  box-shadow: none;
-}
+  /*Desk barre de menu*/
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:170px 0 0 0;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+  }
+  nav a {
+    opacity: 1;
+    transform: scale(1);
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #C0C0C0;
+    background-color: #FFB500;
+    color: #2B2B2B;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 8px 0px;
+    margin: 0 5px;
+    box-shadow: -3px 3px 10px #818181;
+  }
+  nav a:hover {
+    background-color: #c0c0c0;
+    border: 1px solid #2B2B2B;
+    box-shadow: none;
+  }
 
+
+  /*Desk Accueil section*/
+  /*Desk Title accueil*/
+  .accueil-title {
+    margin-top: -90px;
+    padding-top: 50px;
+  }
+
+  /*Desk Portfolio section*/
+  /*Desk All project portfolio*/
+  .cards {
+    max-width: 1000px;
+  }
+  /*Desk Border projects*/
+  .img2 img {
+    border-radius: 0 0 0 0;
+  }
+  .img2b {
+    border-radius: 0 0 0 0;
+  }
+  .img3 img {
+    border-radius: 0 20px 0 0;
+  }
+  .img3b {
+    border-radius:20px 0 0 0;
+  }
+  .img4 img {
+    border-radius: 0 0 0 20px;
+  }
+  .img4b, .portfolio-button-bottom4{
+    border-radius:0 0 20px 0;
+  }
+  .img5 img {
+    border-radius: 0 0 0 0;
+  }
+  .img5b, .portfolio-button-bottom5 {
+    border-radius: 0 0 0 0;
+  }
+
+
+  /*Desk Services section*/
+  /*Desk Ecard article*/
+  .services-flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+  /*Desk Picto article*/
+  .fa-diagram-project,.fa-paintbrush,.fa-desktop,.fa-comments,.fa-code,.fa-magnifying-glass {
+    margin:0 0 0 -30px;
+  }
+
+
+  /*Desk A propos section*/
+  /*Desk presentation*/
+  #apropos article {
+    width: 1000px;
+  }
+
+
+  /*Desk Contact*/
+  /*Desk tel mail*/
+  .tel-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-mail, .contact-tel{
+    margin: 0 100px -90px 100px;
+    width: 500px;
+  }
 /*End desk*/       
     }
