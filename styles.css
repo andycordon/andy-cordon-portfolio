@@ -191,19 +191,19 @@ footer a:hover {
   transform: scale(1.1);
 }
 .fa-linkedin{
-  margin: 10px 5px 10px 10px;
+  margin: 10px 0;
   font-size: 32px;
 }
 .fa-github{
-  margin: 10px 5px;
+  margin: 10px 0;
   font-size: 32px;
 }
 .fa-discord {
-  margin: 10px 5px;
+  margin: 10px 0;
   font-size: 32px;
 }
 .fa-youtube {
-  margin: 10px 5px;
+  margin: 10px 0;
   font-size: 36px;
 }
 .pictoAlig{
@@ -217,7 +217,6 @@ footer ul {
   justify-content: center;
 }
 footer li a {
-  margin: 0 8px;
   font-size: 14px;
 }
 .copyrigth {
