@@ -189,6 +189,7 @@ footer {
 }
 footer a {
   color: #fff;
+  padding: 5px;
 }
 footer a:hover {
   color: #FFB500;
