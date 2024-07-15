@@ -62,6 +62,7 @@ header {
 }
 .logo {
   width: 51px;
+  height: 51px;
   border-radius: 10px;
 }
 header a {
@@ -269,7 +270,8 @@ h1 {
 }
 /*Photo de profil*/
 .accueil-img{
-  width: 50%;
+  width: 300px;
+  height: 300px;
 }
 /*Telechargement bouton*/
 .telecharger {
@@ -624,6 +626,7 @@ iframe {
   }
   .logo {
     width: 150px;
+    height: 150px;
     padding: 5px;
     border-radius: 20px;
     position: absolute;
