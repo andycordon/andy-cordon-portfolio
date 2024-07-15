@@ -450,7 +450,7 @@ transition: 400ms ease-out;
 /*carouseil images*/
 #apropos .logos-slide img {
   margin: 20px 10px 0 10px;
-  height: 100px;
+  height: 80px;
   padding: 5px;
 }
 /*Tab image opacite defil*/
