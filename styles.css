@@ -311,6 +311,10 @@ hr {
 
 
 /*Portfolio section*/
+/*Portfolio title*/
+#portfolio h2 {
+  margin-bottom: 10px;
+}
 /*All project portfolio*/
 .cards {
   display: flex;
